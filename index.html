@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Vasconcelos</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="/build/css/app.css">
+</head>
+<body>
+        <header class="header">
+            <h1> Libreria <span> Vasconcelos </span> </h1>
+        </header>
+        <main class="contenido-principal">
+            <div class="contenedor">
+                <h2> Encuentra todos nuestros títulos </h2>
+                <form id="buscador">
+                    <div class="row">
+                        <div class="three columns">
+                            <label for="marca">Género</label>
+                            <select class="u-full-width" id="genero">
+                                <option value="">Seleccione</option>
+                                <option value="Ciencia Ficción">Ciencia Ficción</option>
+                                <option value="Fantasía">Fantasía</option>
+                                <option value="Poesía">Poesía</option>
+                                <option value="Literatura">Literatura</option>
+                                <option value="Filosofía">Filosofía</option>
+                            </select>
+                        </div>
+                        <div class="three columns">
+                            <label for="editorial">Editorial</label>
+                            <select class="u-full-width" id="editorial">
+                                    <option value="">Seleccione</option>
+                                    <option value="Debolsillo">Debolsillo</option>
+                                    <option value="Nova">Nova</option>
+                                    <option value="Minotauro">Minotauro</option>
+                            </select>
+                        </div>
+                        <div class="three columns">
+                            <label for="year">Año Mínimo</label>
+                            <select class="u-full-width" id="yearmin">
+                                <option value="">Seleccione</option>
+                            </select>
+                        </div>
+                        <div class="three columns">
+                            <label for="year">Año Máximo</label>
+                            <select class="u-full-width" id="yearmax">
+                                <option value="">Seleccione</option>
+                            </select>
+                        </div>
+                
+                        <div class="row">
+                            <div class="three columns">
+                                <label for="minimo">Precio Min</label>
+                                <select class="u-full-width" id="preciominimo">
+                                        <option value="">Seleccione</option>
+                                        <option value="100">100</option>
+                                        <option value="200">200</option>
+                                        <option value="300">300</option>
+                                        <option value="400">400</option>
+                                </select>
+                            </div>
+                            <div class="three columns">
+                                <label for="maximo">Precio Max</label>
+                                <select class="u-full-width" id="preciomaximo">
+                                    <option value="">Seleccione</option>
+                                    <option value="100">100</option>
+                                    <option value="200">200</option>
+                                    <option value="300">300</option>
+                                    <option value="400">400</option>
+                                </select>
+                            </div>
+                            <div class="three columns">
+                                <label for="transmision">Sucursal</label>
+                                <select class="u-full-width" id="sucursal">
+                                        <option value="">Seleccione</option>
+                                        <option value="Roma">Roma</option>
+                                        <option value="Vallejo">Vallejo</option>
+                                        <option value="Polanco">Polanco</option>
+                                </select>
+                            </div>
+                            <div class="three columns">
+                                <label for="color">Formato</label>
+                                <select class="u-full-width" id="formato">
+                                        <option value="">Seleccione</option>
+                                        <option value="Pasta Blanda">Pasta Blanda</option>
+                                        <option value="Pasta Dura">Pasta Dura</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <h2>Resultados</h2>
+                <div id="resultado" class="resultado"></div>
+            </div>
+        </main>
+
+        <script src="/build/js/bundle.js"></script>
+        <footer class="footer">
+            <p>Todos los derechos reservados. Alexander Oliva 2021.</p>
+        </footer>
+</body>
+</html>

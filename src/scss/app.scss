@@ -1,0 +1,12 @@
+@import "base/variables";
+@import 'base/globales';
+@import "base/mixins";
+@import "base/normalize";
+@import "base/utilidades";
+@import "base/skeleton";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');

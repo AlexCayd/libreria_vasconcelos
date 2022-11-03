@@ -1,0 +1,32 @@
+h2 {
+    margin: 3rem 0;
+}
+
+label {
+    font-size: 2.5rem;
+}
+
+select {
+    font-size: 2rem;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.resultados {
+    font-size: 1.7rem;
+    @include desktop {
+        font-size: 2.4rem;
+    }
+    border-bottom: 1px solid $gris3;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.error {
+    background-color: red;
+    font-size: 3.5rem;
+    color: $blanco;
+}
